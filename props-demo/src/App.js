@@ -2,13 +2,14 @@ import logo from './logo.svg';
 import './App.css';
 import Greet from './components/Greet';
 import Welcome from './components/Welcome'
+import GreetDestruct from './components/GreetDestruct';
 
 function App() {
   return (
     <div className="App">
-        <Greet name="Sharad" gender="Male">
+        <GreetDestruct name="Sharad" gender="Male">
           <button>He is the father</button>
-        </Greet>
+        </GreetDestruct>
         <Greet name="Jahanvi" gender="Female"/>
         <Greet name="Jaini" gender="Female">
           <p>She is the child character.
